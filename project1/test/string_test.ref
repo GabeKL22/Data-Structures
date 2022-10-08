@@ -1,0 +1,39 @@
+./build/string_test_driver
+Create an empty list containing type int
+isEmpty(head): true
+show(head)
+NULL
+length(head): 0
+
+Add the strings to the list
+isEmpty(head): false
+show(head)
+one -> two -> three -> four -> five -> NULL
+
+head = insert(head, 3, std::string("Bob"))
+show(head)
+one -> two -> Bob -> three -> four -> five -> NULL
+length(head): 6
+
+contains(head, std::string("one")): true
+contains(head, std::string("Alice")): false
+
+getElement(head, 3): Bob
+
+getPosition(head, std::string("five")): 6
+getPosition(head, std::string("Alice")): -1
+
+replace(head, 3, std::string("Eve"))
+show(head)
+one -> two -> Eve -> three -> four -> five -> NULL
+
+head = remove(head, 3)
+show(head)
+one -> two -> three -> four -> five -> NULL
+length(head): 5
+
+head = remove(head, 1)
+show(head)
+two -> three -> four -> five -> NULL
+length(head): 4
+

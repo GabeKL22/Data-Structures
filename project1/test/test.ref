@@ -1,0 +1,38 @@
+Create an empty list containing type int
+isEmpty(head): true
+show(head)
+NULL
+length(head): 0
+
+Add the integers from 1 to 10 to the list
+isEmpty(head): false
+show(head)
+1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8 -> 9 -> 10 -> NULL
+
+head = insert(head, 10, 42)
+show(head)
+1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8 -> 9 -> 42 -> 10 -> NULL
+length(head): 11
+
+contains(head, 5): true
+contains(head, 9000): false
+
+getElement(head, 10): 42
+
+getPosition(head, 42): 10
+getPosition(head, 20): -1
+
+replace(head, 7, 9000)
+show(head)
+1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 9000 -> 8 -> 9 -> 42 -> 10 -> NULL
+
+head = remove(head, 7)
+show(head)
+1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 8 -> 9 -> 42 -> 10 -> NULL
+length(head): 10
+
+head = remove(head, 1)
+show(head)
+2 -> 3 -> 4 -> 5 -> 6 -> 8 -> 9 -> 42 -> 10 -> NULL
+length(head): 9
+

@@ -1,0 +1,19 @@
+/**
+ * @file string_test_driver.cpp
+ * @author Dr. Schwesinger
+ * CSC 237, Fall 2018, Assignment 1
+ */
+
+#include <string>
+#include "Node.hpp"
+
+/**
+ * Tests the Node functions using string as the actual template parameter
+ * @return the exit code
+ */
+int main() {
+    // TODO write tests for the Node functions using std::string as the actual
+    // parameter type.
+
+    return 0;
+}
